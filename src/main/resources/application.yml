@@ -10,13 +10,13 @@ spring:
       max-file-size: 200MB
       max-request-size: 200MB
   mail:
-    host: smtp.gmail.com
+    host: test.gmail.com
     port: 587
     username: alarm@test.com
     password: lwqy kszd hdsi evur
     properties:
-      mail.smtp.auth: true
-      mail.smtp.starttls.enable: true
+      mail.test.auth: true
+      mail.test.starttls.enable: true
 
 server:
   port: 9293
