@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/example
     username: postgres
-    password: AYesPostgre832@888-
+    password: examplePassword
   servlet:
     multipart:
       max-file-size: 200MB
