@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: notification_sender
+  datasource:
+    url: jdbc:postgresql://localhost:5432/example
+    username: postgres
+    password: AYesPostgre832@888-
+  servlet:
+    multipart:
+      max-file-size: 200MB
+      max-request-size: 200MB
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: alarm@test.com
+    password: lwqy kszd hdsi evur
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+
+server:
+  port: 9293
+  servlet:
+    context-path: /api
+
+
+sms:
+  username: test_api
+  password: H1JEwyy0
+  senderName: test123
+
+
+
